@@ -1,12 +1,12 @@
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import JSONResponse
 from pydantic import BaseModel
 import json
 import os
 
 app = FastAPI()
 
-# Allow requests from CodeSandbox or any origin
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
@@ -35,7 +35,7 @@ class Item(BaseModel):
 # GET all items
 @app.get("/items")
 def get_items():
-    return read_data()
+    return JSONResponse(content=read_data(), media_type="application/json")
 
 
 # GET single item by id
@@ -45,7 +45,7 @@ def get_item(item_id: int):
     item = next((x for x in data if x["id"] == item_id), None)
     if not item:
         raise HTTPException(status_code=404, detail="Item not found")
-    return item
+    return JSONResponse(content=item, media_type="application/json")
 
 
 # POST new item
@@ -56,4 +56,4 @@ def create_item(item: Item):
     new_item = {"id": new_id, **item.model_dump()}
     data.append(new_item)
     write_data(data)
-    return new_item
+    return JSONResponse(content=new_item, media_type="application/json", status_code=201)
