@@ -1,119 +1,139 @@
 [
   {
+    "id": 1,
     "issue_title": "Null pointer exception in authentication module",
     "release_version": "v1.2",
     "type": "Bug",
     "tool_name": "SonarQube"
   },
   {
+    "id": 2,
     "issue_title": "Memory leak detected in data processing pipeline",
     "release_version": "v1.2",
     "type": "Vulnerability",
     "tool_name": "Valgrind"
   },
   {
+    "id": 3,
     "issue_title": "Unused variable declarations in utility functions",
     "release_version": "v1.2",
     "type": "Warning",
     "tool_name": "PyLint"
   },
   {
+    "id": 4,
     "issue_title": "High cyclomatic complexity in parser module",
     "release_version": "v1.2",
     "type": "Warning",
     "tool_name": "SonarQube"
   },
   {
+    "id": 5,
     "issue_title": "Missing input validation in REST API endpoint",
     "release_version": "v1.2",
     "type": "Vulnerability",
     "tool_name": "OWASP ZAP"
   },
   {
+    "id": 6,
     "issue_title": "SQL injection risk in user input handler",
     "release_version": "v2.1.0",
     "type": "Vulnerability",
     "tool_name": "Checkmarx"
   },
   {
+    "id": 7,
     "issue_title": "Deprecated API usage in network layer",
     "release_version": "v2.1.0",
     "type": "Warning",
     "tool_name": "ESLint"
   },
   {
+    "id": 8,
     "issue_title": "Unhandled exception in file upload service",
     "release_version": "v2.1.0",
     "type": "Bug",
     "tool_name": "Coverity"
   },
   {
+    "id": 9,
     "issue_title": "Insecure deserialization in session manager",
     "release_version": "v2.1.0",
     "type": "Vulnerability",
     "tool_name": "Checkmarx"
   },
   {
+    "id": 10,
     "issue_title": "Hardcoded credentials found in configuration file",
     "release_version": "v2.1.0",
     "type": "Warning",
     "tool_name": "TruffleHog"
   },
   {
+    "id": 11,
     "issue_title": "Cross-site scripting vulnerability in UI components",
     "release_version": "v3.0.1",
     "type": "Vulnerability",
     "tool_name": "OWASP ZAP"
   },
   {
+    "id": 12,
     "issue_title": "Race condition in multi-threaded request handler",
     "release_version": "v3.0.1",
     "type": "Bug",
     "tool_name": "ThreadSanitizer"
   },
   {
+    "id": 13,
     "issue_title": "Duplicate code blocks in reporting module",
     "release_version": "v3.0.1",
     "type": "Warning",
     "tool_name": "SonarQube"
   },
   {
+    "id": 14,
     "issue_title": "Dead code detected in legacy helper functions",
     "release_version": "v3.0.1",
     "type": "Warning",
     "tool_name": "PyLint"
   },
   {
+    "id": 15,
     "issue_title": "Improper certificate validation in HTTPS client",
     "release_version": "v3.0.1",
     "type": "Vulnerability",
     "tool_name": "Veracode"
   },
   {
+    "id": 16,
     "issue_title": "Buffer overflow in string formatting function",
     "release_version": "v4.1.0",
     "type": "Vulnerability",
     "tool_name": "AddressSanitizer"
   },
   {
+    "id": 17,
     "issue_title": "Integer overflow in arithmetic operations",
     "release_version": "v4.1.0",
     "type": "Bug",
     "tool_name": "Coverity"
   },
   {
+    "id": 18,
     "issue_title": "Improper error handling in payment gateway module",
     "release_version": "v4.1.0",
     "type": "Bug",
     "tool_name": "SonarQube"
   },
   {
+    "id": 19,
     "issue_title": "Sensitive data logged in plain text",
     "release_version": "v4.1.0",
     "type": "Vulnerability",
     "tool_name": "Checkmarx"
   },
   {
+    "id": 20,
     "issue_title": "Use of outdated cryptographic algorithm (MD5)",
     "release_version": "v4.1.0",
     "type": "Vulnerability",
