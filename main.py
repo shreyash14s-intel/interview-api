@@ -1,4 +1,4 @@
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI, HTTPException, Query
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 from pydantic import BaseModel
@@ -16,6 +16,8 @@ app.add_middleware(
 
 DATA_FILE = "data.json"
 
+DEFAULT_PAGE_SIZE = 10
+
 def read_data():
     if not os.path.exists(DATA_FILE):
         return []
@@ -32,10 +34,43 @@ class Item(BaseModel):
     role: str
 
 
-# GET all items
+# GET all items with pagination
+# Query params: page (1-based), page_size (default 10)
+# Example: /items?page=2&page_size=5
 @app.get("/items")
-def get_items():
-    return JSONResponse(content=read_data(), media_type="application/json")
+def get_items(
+    page: int = Query(default=1, ge=1, description="Page number (1-based)"),
+    page_size: int = Query(default=DEFAULT_PAGE_SIZE, ge=1, le=100, description="Number of items per page"),
+):
+    data = read_data()
+    total = len(data)
+    total_pages = max(1, -(-total // page_size))  # Ceiling division
+
+    # Validate requested page does not exceed total pages
+    if page > total_pages:
+        raise HTTPException(
+            status_code=404,
+            detail=f"Page {page} does not exist. Total pages: {total_pages}"
+        )
+
+    start = (page - 1) * page_size
+    end = start + page_size
+    paginated_items = data[start:end]
+
+    return JSONResponse(
+        content={
+            "data": paginated_items,
+            "pagination": {
+                "page": page,
+                "page_size": page_size,
+                "total_items": total,
+                "total_pages": total_pages,
+                "has_next": page < total_pages,
+                "has_prev": page > 1,
+            },
+        },
+        media_type="application/json",
+    )
 
 
 # GET single item by id
