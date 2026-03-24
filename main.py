@@ -16,7 +16,7 @@ app.add_middleware(
 
 DATA_FILE = "data.json"
 
-DEFAULT_PAGE_SIZE = 10
+DEFAULT_PAGE_SIZE = 50
 
 def read_data():
     if not os.path.exists(DATA_FILE):
