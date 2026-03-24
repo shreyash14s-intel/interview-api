@@ -1,0 +1,702 @@
+[
+  {
+    "id": 1,
+    "issue_title": "Null pointer exception in authentication module",
+    "release_version": "v1.2",
+    "type": "Bug",
+    "tool_name": "SonarQube"
+  },
+  {
+    "id": 2,
+    "issue_title": "Memory leak detected in data processing pipeline",
+    "release_version": "v1.2",
+    "type": "Vulnerability",
+    "tool_name": "Valgrind"
+  },
+  {
+    "id": 3,
+    "issue_title": "Unused variable declarations in utility functions",
+    "release_version": "v1.2",
+    "type": "Warning",
+    "tool_name": "PyLint"
+  },
+  {
+    "id": 4,
+    "issue_title": "High cyclomatic complexity in parser module",
+    "release_version": "v1.2",
+    "type": "Warning",
+    "tool_name": "SonarQube"
+  },
+  {
+    "id": 5,
+    "issue_title": "Missing input validation in REST API endpoint",
+    "release_version": "v1.2",
+    "type": "Vulnerability",
+    "tool_name": "OWASP ZAP"
+  },
+  {
+    "id": 6,
+    "issue_title": "SQL injection risk in user input handler",
+    "release_version": "v2.1.0",
+    "type": "Vulnerability",
+    "tool_name": "Checkmarx"
+  },
+  {
+    "id": 7,
+    "issue_title": "Deprecated API usage in network layer",
+    "release_version": "v2.1.0",
+    "type": "Warning",
+    "tool_name": "ESLint"
+  },
+  {
+    "id": 8,
+    "issue_title": "Unhandled exception in file upload service",
+    "release_version": "v2.1.0",
+    "type": "Bug",
+    "tool_name": "Coverity"
+  },
+  {
+    "id": 9,
+    "issue_title": "Insecure deserialization in session manager",
+    "release_version": "v2.1.0",
+    "type": "Vulnerability",
+    "tool_name": "Checkmarx"
+  },
+  {
+    "id": 10,
+    "issue_title": "Hardcoded credentials found in configuration file",
+    "release_version": "v2.1.0",
+    "type": "Warning",
+    "tool_name": "TruffleHog"
+  },
+  {
+    "id": 11,
+    "issue_title": "Cross-site scripting vulnerability in UI components",
+    "release_version": "v3.0.1",
+    "type": "Vulnerability",
+    "tool_name": "OWASP ZAP"
+  },
+  {
+    "id": 12,
+    "issue_title": "Race condition in multi-threaded request handler",
+    "release_version": "v3.0.1",
+    "type": "Bug",
+    "tool_name": "ThreadSanitizer"
+  },
+  {
+    "id": 13,
+    "issue_title": "Duplicate code blocks in reporting module",
+    "release_version": "v3.0.1",
+    "type": "Warning",
+    "tool_name": "SonarQube"
+  },
+  {
+    "id": 14,
+    "issue_title": "Dead code detected in legacy helper functions",
+    "release_version": "v3.0.1",
+    "type": "Warning",
+    "tool_name": "PyLint"
+  },
+  {
+    "id": 15,
+    "issue_title": "Improper certificate validation in HTTPS client",
+    "release_version": "v3.0.1",
+    "type": "Vulnerability",
+    "tool_name": "Veracode"
+  },
+  {
+    "id": 16,
+    "issue_title": "Buffer overflow in string formatting function",
+    "release_version": "v4.1.0",
+    "type": "Vulnerability",
+    "tool_name": "AddressSanitizer"
+  },
+  {
+    "id": 17,
+    "issue_title": "Integer overflow in arithmetic operations",
+    "release_version": "v4.1.0",
+    "type": "Bug",
+    "tool_name": "Coverity"
+  },
+  {
+    "id": 18,
+    "issue_title": "Improper error handling in payment gateway module",
+    "release_version": "v4.1.0",
+    "type": "Bug",
+    "tool_name": "SonarQube"
+  },
+  {
+    "id": 19,
+    "issue_title": "Sensitive data logged in plain text",
+    "release_version": "v4.1.0",
+    "type": "Vulnerability",
+    "tool_name": "Checkmarx"
+  },
+  {
+    "id": 20,
+    "issue_title": "Use of outdated cryptographic algorithm (MD5)",
+    "release_version": "v4.1.0",
+    "type": "Vulnerability",
+    "tool_name": "Veracode"
+  },
+  {
+    "id": 21,
+    "issue_title": "Null dereference in request routing logic",
+    "release_version": "v5.2.1",
+    "type": "Bug",
+    "tool_name": "Coverity"
+  },
+  {
+    "id": 22,
+    "issue_title": "Heap buffer overflow in image processing library",
+    "release_version": "v5.2.1",
+    "type": "Vulnerability",
+    "tool_name": "AddressSanitizer"
+  },
+  {
+    "id": 23,
+    "issue_title": "Deprecated function usage in crypto module",
+    "release_version": "v5.2.1",
+    "type": "Warning",
+    "tool_name": "SonarQube"
+  },
+  {
+    "id": 24,
+    "issue_title": "Use-after-free in event loop handler",
+    "release_version": "v5.2.1",
+    "type": "Vulnerability",
+    "tool_name": "AddressSanitizer"
+  },
+  {
+    "id": 25,
+    "issue_title": "Uncaught exception in background task scheduler",
+    "release_version": "v5.2.1",
+    "type": "Bug",
+    "tool_name": "SonarQube"
+  },
+  {
+    "id": 26,
+    "issue_title": "Insecure random number generation in token service",
+    "release_version": "v5.2.1",
+    "type": "Vulnerability",
+    "tool_name": "Checkmarx"
+  },
+  {
+    "id": 27,
+    "issue_title": "Missing null check before object dereferencing",
+    "release_version": "v5.2.1",
+    "type": "Bug",
+    "tool_name": "Coverity"
+  },
+  {
+    "id": 28,
+    "issue_title": "Overly broad exception handling in API layer",
+    "release_version": "v5.2.1",
+    "type": "Warning",
+    "tool_name": "PyLint"
+  },
+  {
+    "id": 29,
+    "issue_title": "Path traversal vulnerability in file download endpoint",
+    "release_version": "v5.2.1",
+    "type": "Vulnerability",
+    "tool_name": "OWASP ZAP"
+  },
+  {
+    "id": 30,
+    "issue_title": "Uninitialized variable used in config parser",
+    "release_version": "v5.2.1",
+    "type": "Bug",
+    "tool_name": "Coverity"
+  },
+  {
+    "id": 31,
+    "issue_title": "Sensitive token exposed in URL query parameters",
+    "release_version": "v5.2.1",
+    "type": "Vulnerability",
+    "tool_name": "Veracode"
+  },
+  {
+    "id": 32,
+    "issue_title": "Unused import statements in data transformation layer",
+    "release_version": "v5.2.1",
+    "type": "Warning",
+    "tool_name": "ESLint"
+  },
+  {
+    "id": 33,
+    "issue_title": "Stack overflow risk in recursive tree traversal",
+    "release_version": "v5.2.1",
+    "type": "Bug",
+    "tool_name": "SonarQube"
+  },
+  {
+    "id": 34,
+    "issue_title": "XML external entity injection in report parser",
+    "release_version": "v5.2.1",
+    "type": "Vulnerability",
+    "tool_name": "Checkmarx"
+  },
+  {
+    "id": 35,
+    "issue_title": "Improper session expiry in authentication handler",
+    "release_version": "v5.2.1",
+    "type": "Vulnerability",
+    "tool_name": "OWASP ZAP"
+  },
+  {
+    "id": 36,
+    "issue_title": "Magic numbers used without named constants",
+    "release_version": "v5.2.1",
+    "type": "Warning",
+    "tool_name": "PyLint"
+  },
+  {
+    "id": 37,
+    "issue_title": "Type confusion vulnerability in message deserializer",
+    "release_version": "v5.2.1",
+    "type": "Vulnerability",
+    "tool_name": "Veracode"
+  },
+  {
+    "id": 38,
+    "issue_title": "Incorrect permission check in admin endpoint",
+    "release_version": "v5.2.1",
+    "type": "Bug",
+    "tool_name": "Checkmarx"
+  },
+  {
+    "id": 39,
+    "issue_title": "Double-free error in memory management module",
+    "release_version": "v5.2.1",
+    "type": "Vulnerability",
+    "tool_name": "AddressSanitizer"
+  },
+  {
+    "id": 40,
+    "issue_title": "Excessive logging verbosity exposing internal state",
+    "release_version": "v5.2.1",
+    "type": "Warning",
+    "tool_name": "SonarQube"
+  },
+  {
+    "id": 41,
+    "issue_title": "Off-by-one error in array bounds checking",
+    "release_version": "v5.2.1",
+    "type": "Bug",
+    "tool_name": "Coverity"
+  },
+  {
+    "id": 42,
+    "issue_title": "Open redirect vulnerability in login callback handler",
+    "release_version": "v5.2.1",
+    "type": "Vulnerability",
+    "tool_name": "OWASP ZAP"
+  },
+  {
+    "id": 43,
+    "issue_title": "Missing rate limiting on password reset endpoint",
+    "release_version": "v5.2.1",
+    "type": "Vulnerability",
+    "tool_name": "Checkmarx"
+  },
+  {
+    "id": 44,
+    "issue_title": "Inconsistent error messages leaking system details",
+    "release_version": "v5.2.1",
+    "type": "Warning",
+    "tool_name": "Veracode"
+  },
+  {
+    "id": 45,
+    "issue_title": "Improper input sanitization in search query builder",
+    "release_version": "v5.2.1",
+    "type": "Vulnerability",
+    "tool_name": "SonarQube"
+  },
+  {
+    "id": 46,
+    "issue_title": "Assertion failure in concurrent write operation",
+    "release_version": "v5.2.1",
+    "type": "Bug",
+    "tool_name": "ThreadSanitizer"
+  },
+  {
+    "id": 47,
+    "issue_title": "Unvalidated redirect in OAuth callback flow",
+    "release_version": "v5.2.1",
+    "type": "Vulnerability",
+    "tool_name": "OWASP ZAP"
+  },
+  {
+    "id": 48,
+    "issue_title": "Deprecated TLS version accepted by server config",
+    "release_version": "v5.2.1",
+    "type": "Warning",
+    "tool_name": "Veracode"
+  },
+  {
+    "id": 49,
+    "issue_title": "Logic error in discount calculation in billing module",
+    "release_version": "v5.2.1",
+    "type": "Bug",
+    "tool_name": "SonarQube"
+  },
+  {
+    "id": 50,
+    "issue_title": "Improper cleanup of temporary files after processing",
+    "release_version": "v5.2.1",
+    "type": "Bug",
+    "tool_name": "Coverity"
+  },
+  {
+    "id": 51,
+    "issue_title": "Null dereference in WebSocket connection teardown",
+    "release_version": "v6.5.5",
+    "type": "Bug",
+    "tool_name": "Coverity"
+  },
+  {
+    "id": 52,
+    "issue_title": "Command injection in shell script executor",
+    "release_version": "v6.5.5",
+    "type": "Vulnerability",
+    "tool_name": "Checkmarx"
+  },
+  {
+    "id": 53,
+    "issue_title": "Unused function parameters in data export module",
+    "release_version": "v6.5.5",
+    "type": "Warning",
+    "tool_name": "PyLint"
+  },
+  {
+    "id": 54,
+    "issue_title": "Format string vulnerability in log formatter",
+    "release_version": "v6.5.5",
+    "type": "Vulnerability",
+    "tool_name": "AddressSanitizer"
+  },
+  {
+    "id": 55,
+    "issue_title": "Infinite loop risk in retry logic handler",
+    "release_version": "v6.5.5",
+    "type": "Bug",
+    "tool_name": "SonarQube"
+  },
+  {
+    "id": 56,
+    "issue_title": "Cleartext transmission of sensitive credentials",
+    "release_version": "v6.5.5",
+    "type": "Vulnerability",
+    "tool_name": "Veracode"
+  },
+  {
+    "id": 57,
+    "issue_title": "Missing authorization check in bulk delete endpoint",
+    "release_version": "v6.5.5",
+    "type": "Vulnerability",
+    "tool_name": "OWASP ZAP"
+  },
+  {
+    "id": 58,
+    "issue_title": "Deprecated cipher suite enabled in TLS configuration",
+    "release_version": "v6.5.5",
+    "type": "Warning",
+    "tool_name": "Veracode"
+  },
+  {
+    "id": 59,
+    "issue_title": "Segmentation fault in JSON schema validator",
+    "release_version": "v6.5.5",
+    "type": "Bug",
+    "tool_name": "AddressSanitizer"
+  },
+  {
+    "id": 60,
+    "issue_title": "LDAP injection in directory search query",
+    "release_version": "v6.5.5",
+    "type": "Vulnerability",
+    "tool_name": "Checkmarx"
+  },
+  {
+    "id": 61,
+    "issue_title": "Inconsistent locking in shared resource access",
+    "release_version": "v6.5.5",
+    "type": "Bug",
+    "tool_name": "ThreadSanitizer"
+  },
+  {
+    "id": 62,
+    "issue_title": "Overly permissive CORS policy on API gateway",
+    "release_version": "v6.5.5",
+    "type": "Vulnerability",
+    "tool_name": "OWASP ZAP"
+  },
+  {
+    "id": 63,
+    "issue_title": "Missing timeout on external HTTP requests",
+    "release_version": "v6.5.5",
+    "type": "Warning",
+    "tool_name": "SonarQube"
+  },
+  {
+    "id": 64,
+    "issue_title": "Use of banned API in file system operations",
+    "release_version": "v6.5.5",
+    "type": "Warning",
+    "tool_name": "ESLint"
+  },
+  {
+    "id": 65,
+    "issue_title": "Prototype pollution in object merge utility",
+    "release_version": "v6.5.5",
+    "type": "Vulnerability",
+    "tool_name": "Checkmarx"
+  },
+  {
+    "id": 66,
+    "issue_title": "Incorrect mutex unlock sequence causing deadlock",
+    "release_version": "v6.5.5",
+    "type": "Bug",
+    "tool_name": "ThreadSanitizer"
+  },
+  {
+    "id": 67,
+    "issue_title": "Server-side request forgery in webhook handler",
+    "release_version": "v6.5.5",
+    "type": "Vulnerability",
+    "tool_name": "Veracode"
+  },
+  {
+    "id": 68,
+    "issue_title": "Overly broad file permission set on config directory",
+    "release_version": "v6.5.5",
+    "type": "Warning",
+    "tool_name": "TruffleHog"
+  },
+  {
+    "id": 69,
+    "issue_title": "Improper bounds check in binary protocol parser",
+    "release_version": "v6.5.5",
+    "type": "Bug",
+    "tool_name": "Coverity"
+  },
+  {
+    "id": 70,
+    "issue_title": "Unencrypted storage of PII in local database",
+    "release_version": "v6.5.5",
+    "type": "Vulnerability",
+    "tool_name": "Checkmarx"
+  },
+  {
+    "id": 71,
+    "issue_title": "Missing field validation in user registration form",
+    "release_version": "v6.5.5",
+    "type": "Bug",
+    "tool_name": "SonarQube"
+  },
+  {
+    "id": 72,
+    "issue_title": "Exposed debug endpoint in production build",
+    "release_version": "v6.5.5",
+    "type": "Vulnerability",
+    "tool_name": "OWASP ZAP"
+  },
+  {
+    "id": 73,
+    "issue_title": "Long variable names reducing code readability",
+    "release_version": "v6.5.5",
+    "type": "Warning",
+    "tool_name": "PyLint"
+  },
+  {
+    "id": 74,
+    "issue_title": "Incorrect HTTP status code returned on auth failure",
+    "release_version": "v6.5.5",
+    "type": "Bug",
+    "tool_name": "SonarQube"
+  },
+  {
+    "id": 75,
+    "issue_title": "Mass assignment vulnerability in user profile update",
+    "release_version": "v6.5.5",
+    "type": "Vulnerability",
+    "tool_name": "Veracode"
+  },
+  {
+    "id": 76,
+    "issue_title": "Deprecated SSL handshake method still in use",
+    "release_version": "v6.5.5",
+    "type": "Warning",
+    "tool_name": "Veracode"
+  },
+  {
+    "id": 77,
+    "issue_title": "Memory corruption in custom allocator implementation",
+    "release_version": "v6.5.5",
+    "type": "Vulnerability",
+    "tool_name": "AddressSanitizer"
+  },
+  {
+    "id": 78,
+    "issue_title": "Index out of bounds in pagination logic",
+    "release_version": "v6.5.5",
+    "type": "Bug",
+    "tool_name": "Coverity"
+  },
+  {
+    "id": 79,
+    "issue_title": "Unprotected sensitive endpoint missing authentication",
+    "release_version": "v6.5.5",
+    "type": "Vulnerability",
+    "tool_name": "OWASP ZAP"
+  },
+  {
+    "id": 80,
+    "issue_title": "Implicit type coercion in conditional expression",
+    "release_version": "v6.5.5",
+    "type": "Warning",
+    "tool_name": "ESLint"
+  },
+  {
+    "id": 81,
+    "issue_title": "Crash on malformed input in CSV import handler",
+    "release_version": "v6.5.5",
+    "type": "Bug",
+    "tool_name": "SonarQube"
+  },
+  {
+    "id": 82,
+    "issue_title": "Weak password policy enforcement on account creation",
+    "release_version": "v6.5.5",
+    "type": "Vulnerability",
+    "tool_name": "Checkmarx"
+  },
+  {
+    "id": 83,
+    "issue_title": "Unreachable code after early return statement",
+    "release_version": "v6.5.5",
+    "type": "Warning",
+    "tool_name": "PyLint"
+  },
+  {
+    "id": 84,
+    "issue_title": "Improper error propagation in async task pipeline",
+    "release_version": "v6.5.5",
+    "type": "Bug",
+    "tool_name": "Coverity"
+  },
+  {
+    "id": 85,
+    "issue_title": "Insecure cookie attributes missing HttpOnly flag",
+    "release_version": "v6.5.5",
+    "type": "Vulnerability",
+    "tool_name": "OWASP ZAP"
+  },
+  {
+    "id": 86,
+    "issue_title": "Non-constant time comparison used for secret tokens",
+    "release_version": "v6.5.5",
+    "type": "Vulnerability",
+    "tool_name": "Veracode"
+  },
+  {
+    "id": 87,
+    "issue_title": "Assertion triggered on edge case in sort algorithm",
+    "release_version": "v6.5.5",
+    "type": "Bug",
+    "tool_name": "SonarQube"
+  },
+  {
+    "id": 88,
+    "issue_title": "Incomplete input masking in payment form field",
+    "release_version": "v6.5.5",
+    "type": "Warning",
+    "tool_name": "Checkmarx"
+  },
+  {
+    "id": 89,
+    "issue_title": "Unhandled promise rejection in async event emitter",
+    "release_version": "v6.5.5",
+    "type": "Bug",
+    "tool_name": "ESLint"
+  },
+  {
+    "id": 90,
+    "issue_title": "Insecure direct object reference in file access API",
+    "release_version": "v6.5.5",
+    "type": "Vulnerability",
+    "tool_name": "Checkmarx"
+  },
+  {
+    "id": 91,
+    "issue_title": "Missing HSTS header in HTTP response configuration",
+    "release_version": "v6.5.5",
+    "type": "Warning",
+    "tool_name": "OWASP ZAP"
+  },
+  {
+    "id": 92,
+    "issue_title": "Logic flaw in multi-factor authentication bypass check",
+    "release_version": "v6.5.5",
+    "type": "Bug",
+    "tool_name": "Coverity"
+  },
+  {
+    "id": 93,
+    "issue_title": "Denial of service via regex catastrophic backtracking",
+    "release_version": "v6.5.5",
+    "type": "Vulnerability",
+    "tool_name": "Veracode"
+  },
+  {
+    "id": 94,
+    "issue_title": "Deprecated hash function used in integrity check",
+    "release_version": "v6.5.5",
+    "type": "Warning",
+    "tool_name": "SonarQube"
+  },
+  {
+    "id": 95,
+    "issue_title": "Integer underflow in packet length calculation",
+    "release_version": "v6.5.5",
+    "type": "Bug",
+    "tool_name": "AddressSanitizer"
+  },
+  {
+    "id": 96,
+    "issue_title": "Exposed internal API keys in client-side bundle",
+    "release_version": "v6.5.5",
+    "type": "Vulnerability",
+    "tool_name": "TruffleHog"
+  },
+  {
+    "id": 97,
+    "issue_title": "Missing Content-Security-Policy header on web responses",
+    "release_version": "v6.5.5",
+    "type": "Warning",
+    "tool_name": "OWASP ZAP"
+  },
+  {
+    "id": 98,
+    "issue_title": "Improper deserialization of untrusted YAML input",
+    "release_version": "v6.5.5",
+    "type": "Vulnerability",
+    "tool_name": "Checkmarx"
+  },
+  {
+    "id": 99,
+    "issue_title": "Crash on concurrent map write in cache manager",
+    "release_version": "v6.5.5",
+    "type": "Bug",
+    "tool_name": "ThreadSanitizer"
+  },
+  {
+    "id": 100,
+    "issue_title": "Improper revocation of OAuth access tokens on logout",
+    "release_version": "v6.5.5",
+    "type": "Vulnerability",
+    "tool_name": "Veracode"
+  }
+]
