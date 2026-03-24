@@ -16,7 +16,7 @@ app.add_middleware(
 
 DATA_FILE = "data.json"
 
-DEFAULT_PAGE_SIZE = 50
+DEFAULT_PAGE_SIZE = 100
 
 VALID_NAMES = {"data", "data1", "data2", "data3", "data4"}
 
